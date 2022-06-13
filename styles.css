@@ -8,6 +8,10 @@
 body {
     background-color: var(--primary-color);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 10em;
 }
 
 h1 {
@@ -24,6 +28,14 @@ a {
     text-decoration: none;
     color: var(--secondary-color);
     height: max-content;
+}
+
+/* TEMP class */
+.TBD{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .current-link {
