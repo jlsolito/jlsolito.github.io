@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #22274B;
+    --secondary-color: #CEA716;
+    --call-to-action: #EEEDFF;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+h1 {
+    margin-top: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.current-link {
+    color: var(--primary-color);
+    text-shadow: -1px -1px 0 var(--call-to-action),
+        1px -1px 0 var(--call-to-action),
+        -1px 1px 0 var(--call-to-action),
+        1px 1px 0 var(--call-to-action);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px
+}
