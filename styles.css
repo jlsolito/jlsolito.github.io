@@ -5,6 +5,10 @@
     --cta-text: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--primary-color);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -36,6 +40,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 3em;
 }
 
 .current-link {
@@ -54,6 +59,10 @@ a {
 }
 
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
